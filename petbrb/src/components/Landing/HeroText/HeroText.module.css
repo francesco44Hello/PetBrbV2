@@ -1,0 +1,16 @@
+.textContainer{
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+.text{
+    width: 300px;
+    text-align: center;
+    font-size: 34px;
+    color: var(--white);
+    font-weight: 500;
+}
+.span{
+    color: var(--creamWhite);
+    font-style: italic;
+}
