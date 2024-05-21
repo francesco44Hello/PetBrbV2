@@ -1,0 +1,9 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 10%;
+  flex-wrap: wrap;
+  height: 60vh;
+  background-color: var(--creamWhite);
+  align-items: center;
+}

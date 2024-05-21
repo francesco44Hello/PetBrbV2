@@ -21,3 +21,13 @@
     width: 100%;
     justify-content: space-between;
 }
+.subTextContainer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 40px;
+    align-items: center;
+    margin-top: 60px;
+    color: var(--white);
+    font-size: 28px;
+}
