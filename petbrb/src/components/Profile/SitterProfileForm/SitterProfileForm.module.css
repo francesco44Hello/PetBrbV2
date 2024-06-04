@@ -1,0 +1,13 @@
+.inputsSection{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 20px;
+}
+.inputsContainer{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+}

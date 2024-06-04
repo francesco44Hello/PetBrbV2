@@ -1,0 +1,7 @@
+.main{
+    min-height: 80dvh;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--creamWhite);
+    width: 100%;
+}

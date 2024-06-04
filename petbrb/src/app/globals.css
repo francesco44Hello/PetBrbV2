@@ -9,6 +9,9 @@
   --bluette: #16687b;
   --white: #eee;
   --creamWhite: #ece7e2;
+  --black: #000;
+  --animalsLebel: #eccdad;
+  --linearGradient: linear-gradient(to right, #16687b, orange);
 }
 
 body,

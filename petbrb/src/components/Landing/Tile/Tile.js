@@ -1,9 +1,9 @@
 import React from "react";
 import styles from "./Tile.module.css";
 
-const Tile = ({ text, icon: Icon }) => {
+const Tile = ({ text, icon: Icon, id }) => {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} key={id}>
      <div className={styles.iconContainer}>
         <Icon className={styles.icon} />
       </div>

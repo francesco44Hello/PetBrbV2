@@ -4,14 +4,14 @@ import "firebase/compat/auth";
 import { getStorage } from "firebase/storage";
 
 const firebaseConfig = {
-  apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
-  authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN,
-  projectId: process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID,
-  storageBucket: process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: process.env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID,
-  appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID,
+  apiKey: "AIzaSyAP2cYXDd07C8YKv26epvSgiIFuBAoIjRY",
+  authDomain: "petbrbv2.firebaseapp.com",
+  projectId: "petbrbv2",
+  storageBucket: "petbrbv2.appspot.com",
+  messagingSenderId: "840447307156",
+  appId: "1:840447307156:web:002aa74ba8a148da43b381"
 };
-
+console.log(process.env.NEXT_PUBLIC_FIREBASE_API_KEY)
 export const firebaseApp = firebase.initializeApp(firebaseConfig);
 
 const enablePersistence = async () => {

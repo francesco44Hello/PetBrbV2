@@ -1,0 +1,55 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-inline: 100px;
+    padding: 20px;
+}
+.personalPrivateInfos{
+    margin-top: 40px;
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.inputsSection{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 20px;
+}
+/* .inputsContainer{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+} */
+
+/* ///////////// */
+
+
+.section{
+    display: flex;
+    border: 2px solid lightgray;
+    border-radius: 8px;
+    height: 400px;
+    width: 70%;
+    margin-top: 10px;
+    padding: 30px;
+    justify-content: space-between;
+}
+.sectionTitle {
+    font-size: 24px;
+    font-weight: bold;
+}
+.inputsContainer{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+}

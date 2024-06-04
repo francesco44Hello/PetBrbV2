@@ -5,10 +5,8 @@ import Footer from "@/components/shared/Footer/Footer";
 export default function Home() {
   return (
     <main>
-      <TopBar></TopBar>
       <Hero></Hero>
-      <HowItWorks/>
-      <Footer/>
+      <HowItWorks />
     </main>
   );
 }
